@@ -1,0 +1,17 @@
+<FlexboxLayout>
+	<StackLayout class="form main">
+
+            <Label text="I Got Your Drink" class="title"></Label>
+            <Label text="Already have an account?" class="subtitle"></Label>
+
+        <GridLayout columns="auto, auto" rows="120, 45">
+
+            <Button class="btn register" col="0" row="0" (tap)="goRegister()"></Button>
+            <Label text="Register" col="0" row="1" class="btnLabel"></Label>
+            
+            <Button class="btn signIn" col="1" row="0" (tap)="login()"></Button> 
+            <Label text="Sign In" col="1" row="1" class="btnLabel"></Label>
+
+        </GridLayout>
+	</StackLayout>
+</FlexboxLayout>

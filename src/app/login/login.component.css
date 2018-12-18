@@ -1,0 +1,32 @@
+/* Add mobile styles for the component here.  */
+FlexboxLayout {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("~/images/login_background.png");
+  }
+  StackLayout {
+    border-radius: 35px;
+    width: 300;
+    padding: 10 16;
+    background-color: #FFF1D7;
+  }
+  Button, TextField {
+    margin-top: 10;
+    margin-bottom: 10;
+  }
+  .btn-primary {
+    background-color: blue;
+    margin-left: 60%;
+    margin-right: 0;
+  }
+  TextField {
+    placeholder-color: burlywood;
+    color: black;
+  }
+  .title {
+    text-align: center;
+    font-size: 26;
+    font-weight: bold;
+    margin-bottom: 20;
+  }

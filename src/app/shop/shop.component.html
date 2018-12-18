@@ -1,0 +1,11 @@
+<ActionBar title="Choose a Cafe"></ActionBar>
+<GridLayout height="100%">
+    <ListView #list [items]="shops">
+        <ng-template let-item="item">
+            <GridLayout class="list-item">
+                <Image [src]="item.backgroundImage"></Image>
+                <Label [text]="item.name" class="item-title"></Label>
+            </GridLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>

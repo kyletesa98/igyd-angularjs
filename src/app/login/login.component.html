@@ -1,0 +1,11 @@
+<FlexboxLayout>
+	<StackLayout class="form">
+		<Label text="I Got Your Drink" class="title"></Label>
+		<TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"
+		 class="input input-border" backgroundColor="whitesmoke"></TextField>
+		<TextField hint="Password" secure="true" class="input input-border" backgroundColor="whitesmoke"></TextField>
+		<Label text="Create Account?" (tap)="goRegister()"></Label> 
+
+		<Button text="Sign In" class="btn btn-primary" (tap)="submit()"></Button>
+	</StackLayout>
+</FlexboxLayout>
